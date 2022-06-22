@@ -12,12 +12,6 @@
   height: 362px;
 }
 
-.movie__card_info {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-}
-
 .movie__card_name {
   font-size: 18px;
   font-weight: 600;
@@ -25,15 +19,5 @@
   margin: 15px 0;
   white-space: nowrap;
   overflow: hidden;
-  text-overflow: ellipsis;
-}
-
-.movie__card_info {
-  font-size: 16px;
-  font-weight: 500;
-  color: white;
-  white-space: nowrap;
-  overflow: hidden;
-  text-transform: capitalize;
   text-overflow: ellipsis;
 }
