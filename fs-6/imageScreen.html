@@ -1,0 +1,32 @@
+
+<html>
+    <head>
+    <title>WEB PAGE WITH JAVA script</title>
+    <script lang="Javascript">
+    function resize()
+    {
+        if(document.form1.weight.value >0 && document.form1.height.value> 0 ){
+            var theImg = document.getElementById('img');
+            theImg.style.height = document.form1.height.value;
+            theImg.style.width = document.form1.weight.value;
+        }
+
+        event.preventDefault();
+    }
+    
+    
+    </script>
+    </head>
+    <body>
+    <form name="form1">
+    <h1>Name</h1>
+    <hr></hr>
+    <img src="img.jpg" alt="Girl in a jacket" width="500" height="300" id="img"><br><br>
+    WIDTH <input type="number" name="weight" /> 
+    HEIGHT  <input type="number" name="height" /> </br>
+       
+    <input type="submit" value="RESIZE" onclick="resize()" >
+    
+    </form>
+    </body>
+</html>

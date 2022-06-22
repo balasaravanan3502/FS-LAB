@@ -1,0 +1,30 @@
+<html>
+    <head>
+    <title>WEB PAGE WITH JAVA script</title>
+    <script lang="Javascript">
+    function validate()
+    {
+        console.log('asd')
+        var name = document.form1.uname.value
+        if(name.length !=8) {
+            alert("Name must have 8 characters");
+            return;
+        }
+        
+        window.open("E:/development/web/FS-LAB/fs-6/imageScreen.html");
+    }
+    
+    
+    </script>
+    </head>
+    <body>
+    <form name="form1">
+    <h1>Name</h1>
+    <hr></hr>
+    USERNAME <input type="text" name="uname" />  
+       
+    <input type="submit" value="VALIDATE" onclick="validate()" >
+    
+    </form>
+    </body>
+</html>
