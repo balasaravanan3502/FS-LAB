@@ -1,4 +1,4 @@
-# FULL STACK LABORATORY
+# FULL STACK LABORATORY - 25
 
 Build a weather application that provides the weather details for a location specified by the farmers of a particular district in Tamilnadu
 
@@ -10,7 +10,7 @@ In the project directory, you can run:
 
 ### `npm i`
 
-To install the dependencies of the project.\
+To install the dependencies of the project.
 
 ### `npm start`
 
