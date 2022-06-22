@@ -1,0 +1,32 @@
+<html>
+    <head>
+    <title>WEB PAGE WITH JAVA script</title>
+    <script lang="Javascript">
+    function validate()
+    {
+        var number = document.form1.number.value
+     
+       for(var i =1;i<number.length;i++){
+            if(+number.charAt(i) < +number.charAt(i-1)){
+                document.writeln("<body><h1>NOT VALID!!</h1></body>");
+                return;
+            }
+        }
+   
+        document.writeln("<body><h1>VALID!!</h1></body>");
+    }
+    
+    
+    </script>
+    </head>
+    <body>
+    <form name="form1">
+    <h1>NUMBER CHECK</h1>
+    <hr></hr>
+        NUMBER <input type="text" name="number" maxlength="4"/> 
+       
+    <input type="submit" value="VALIDATE" onclick="validate()" >
+    
+    </form>
+    </body>
+</html>
